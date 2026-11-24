@@ -1,0 +1,19 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "skvault"
+  ],
+  "ios": {
+    "iosModuleName": "NitroSkVault"
+  },
+  "android": {
+    "androidNamespace": [
+      "skvault"
+    ],
+    "androidCxxLibName": "NitroSkVault"
+  },
+  "autolinking": {},
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
